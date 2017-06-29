@@ -1,0 +1,21 @@
+{
+  "name": "zongphp/qrcode",
+  "description": "生成二维码图片或文件",
+  "type": "project",
+  "keywords": [
+    "qrcode"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "zongphp/config": "~1.0",
+    "bacon/bacon-qr-code": "^1.0"
+  },
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "zongphp\\qrcode\\": "src"
+    }
+  }
+}
